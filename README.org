@@ -1,0 +1,32 @@
+#+title: hit-maker
+
+A simple LLM-powered band name & hit single title generator.
+
+#+begin_src
+python cli.py
+
+Enter artistic influences:
+Lee Scratch Perry meets Merzbow with The Velvet Underground?
+
+ > Entering new SimpleSequentialChain chain...
+
+
+ Spectral Sunbeams.
+
+
+ "Casting Rainbows Across The Sky"
+#+end_src
+
+** Install
+
+Add your api keys:
+
+#+begin_src
+export OPENAI_API_KEY=".....""
+#+end_src
+
+Install dependencies:
+
+#+begin_src
+pip install langchain openai rich
+#+end_src
